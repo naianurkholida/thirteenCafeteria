@@ -104,5 +104,15 @@ namespace thirteenCafeteria
 
             
         }
+
+        private void txt_harga_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_harga_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
     }
 }
