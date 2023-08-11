@@ -108,7 +108,6 @@
             this.txt_harga.Name = "txt_harga";
             this.txt_harga.Size = new System.Drawing.Size(361, 22);
             this.txt_harga.TabIndex = 7;
-            this.txt_harga.TextChanged += new System.EventHandler(this.txt_harga_TextChanged);
             this.txt_harga.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_harga_KeyPress);
             // 
             // kategori
