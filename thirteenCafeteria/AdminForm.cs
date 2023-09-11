@@ -36,5 +36,10 @@ namespace thirteenCafeteria
             move.Show();
             this.Visible= false;
         }
+
+        private void AdminForm_Load(object sender, EventArgs e)
+        {
+            string keisha;
+        }
     }
 }
