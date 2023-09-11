@@ -43,10 +43,12 @@
             this.label1.Size = new System.Drawing.Size(915, 106);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thirteen Canteen";
+            this.label1.DockChanged += new System.EventHandler(this.label1_Click);
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn_pesan
             // 
+            this.btn_pesan.AutoSize = true;
             this.btn_pesan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btn_pesan.Font = new System.Drawing.Font("PixelGameFont", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_pesan.Location = new System.Drawing.Point(357, 326);
@@ -59,6 +61,7 @@
             // 
             // btn_login
             // 
+            this.btn_login.AutoSize = true;
             this.btn_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btn_login.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_login.Font = new System.Drawing.Font("PixelGameFont", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -78,6 +81,7 @@
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.btn_pesan);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Home";
             this.ResumeLayout(false);

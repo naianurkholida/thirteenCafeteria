@@ -24,7 +24,9 @@ namespace thirteenCafeteria
 
         private void btn_pesan_Click(object sender, EventArgs e)
         {
-
+            pesan pindah = new pesan();
+            pindah.Show();
+            this.Visible = false;
         }
 
         private void btn_login_Click(object sender, EventArgs e)
